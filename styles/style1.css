@@ -95,7 +95,7 @@ button {
 
 .imagen{
     margin-top: 20px;
-    background-image: url(/proyecto/assets/images/891.jpg);
+    background-image: url(../assets/images/891.jpg);
     background-size: cover;
     background-position: center;
    height: 220px;
