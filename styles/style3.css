@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.principal {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.n { 
+  display: flex;
+
+    h2 {
+    color: rgb(33, 132, 245);
+    
+  }
+  h1 {
+    color: white;
+
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding-right: 15px;
+}
+a:hover {
+  color: rgb(33, 132, 245);
+}
+
+.linea {
+  background-color: rgb(33, 132, 245);
+  height: 3px;
+}
+
+
+
+
+.e {
+  background-color: rgb(44, 43, 43);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+}
+input {
+  width: 300px;
+  height: 40px;
+}
+button {
+  background-color: rgb(255, 105, 5);
+  width: 100px;
+  height: 40px;
+  color: white;
+}
+
+
+.contacto {
+    display: flex;
+justify-content:space-around;
+    padding: 30px 60px;
+}
+
+.formulario {
+    width: 60%;
+}
+
+.formulario h2 {
+    margin-bottom: 15px;
+}
+
+.formulario form input,
+.formulario form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    min-height: 120px;
+   
+}
+
+.btn-enviar {
+    background: #e74c3c;
+    border: none;
+    padding: 12px;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background: #c0392b;
+}
+
+.h {
+background-color: rgb(78, 78, 95);
+  height: 30%;
+  width: 300px;
+  color: white;
+  font-size: small;
+
+  padding: 10px;
+}
+.h.p {
+  text-align: center;
+}
+
+img {
+  padding-top: 20px;
+  height: 60%;
+  width: 300px;
+}
+
+
+footer {
+ position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(76, 155, 233);
+  padding-top: 25px;
+  height: 70px;
+  text-align: center;
+  color: white;
+}
